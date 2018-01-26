@@ -14,7 +14,6 @@ class HotelController extends Controller
     public function index()
     {
      
-
             return view('hotels.index');
   
     }
@@ -46,9 +45,9 @@ class HotelController extends Controller
      * @param  \App\school  $school
      * @return \Illuminate\Http\Response
      */
-    public function show(school $school)
+    public function show(hotel $hotel)
     {
-       
+       return view('hotels.show');
     }
 
 
